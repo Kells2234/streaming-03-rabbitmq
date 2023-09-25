@@ -1,5 +1,9 @@
 """
+    This message receives the message
 
+    Kelly Simmons
+    9/25/2023
+    
 Listens for messages on the queue.
 This process runs continuously. 
 
@@ -30,9 +34,8 @@ import pika, sys, os
 # define a main function to run the program
 def main():
     # create a blocking connection to the RabbitMQ server
-    connection = pika.BlockingConnection(
-        pika.ConnectionParameters(host="looooocalhost")
-    )
+    connection = pika.BlockingConnection(pika.ConnectionParameters(host="LocalHost"))
+
     # use the connection to create a communication channel
     channel = connection.channel()
     # use the channel to declare a queue

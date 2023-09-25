@@ -8,6 +8,8 @@ channel = connection.channel()
 
 channel.queue_declare(queue="hello")
 
+message = "Welcome to the gueue."
+
 channel.basic_publish(exchange="", routing_key="hello", body="Hello World!")
-print(" [x] Sent 'Hello World!'")
+print(" [x] Sent 'Welcome to the gueue.'")
 connection.close()

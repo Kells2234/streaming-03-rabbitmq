@@ -1,5 +1,10 @@
 """
+    This program send messages to the queue.
 
+    Kelly Simmons
+    9/25/2023
+
+    
 Message sender / emitter 
 
 Description:
@@ -66,4 +71,4 @@ def send_message(host: str, queue_name: str, message: str):
 # If this is the script we are running, then call some functions and execute code!
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
-    send_message("llllocalhost", "hello", "Hello World!")
+    send_message("localhost", "hello", "Hello World!")
