@@ -1,5 +1,8 @@
 # streaming-03-rabbitmq
 
+Kelly Simmons
+9/25/2023
+
 > Get started with RabbitMQ, a message broker, that enables multiple processes to communicate reliably through an intermediary.
 
 This project requires some free code - beyond that available in the Python Standard Library. To avoid messing up our local default Python installation, and any other Python projects we may have, we  create a local virtual environment to install and use these libraries.
@@ -159,6 +162,9 @@ Each of the version 2 programs include an error as well.
 1. Learn and understand this common Python idiom.
 
 ## Reference
+
+## Multiple Terminals
+![Alt Text](Screenshot 2023-09-25 205304.png)
 
 - [RabbitMQ Tutorial - Hello, World!](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)
 - [Using Python environments in VS Code](https://code.visualstudio.com/docs/python/environments)
