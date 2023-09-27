@@ -164,7 +164,7 @@ Each of the version 2 programs include an error as well.
 ## Reference
 
 ## Multiple Terminals
-![Alt Text](Screenshot 2023-09-25 205304.png)
+![Alt text](<Screenshot 2023-09-26 213913-1.png>)
 
 - [RabbitMQ Tutorial - Hello, World!](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)
 - [Using Python environments in VS Code](https://code.visualstudio.com/docs/python/environments)
